@@ -1,5 +1,5 @@
 # GambasShell
-Gambas shell gsh for linux
+Gambas shell gsh for linux required Gambas3 3.14.90 or higher
 
 Only the Ubuntu version/linux mint have been well tested so far.
 So be careful with the other. Please report any issues thanks.
