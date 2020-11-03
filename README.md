@@ -13,3 +13,5 @@ If your want to use gsh as your login script then add an entry to the /etc/shell
 
 Change the defult shell in your user account. Or the /etc/passwd file
 depending on your linux release.
+
+See the Wiki for more details: https://github.com/justlostintime/GambasShell/wiki
