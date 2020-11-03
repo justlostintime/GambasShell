@@ -15,4 +15,7 @@ Change the defult shell in your user account. Or the /etc/passwd file
 depending on your linux release.
 
 See the Wiki for more details: https://github.com/justlostintime/GambasShell/wiki
-Or see the detailed documentation at:https://github.com/justlostintime/GambasShell/wiki/Documentation
+
+Or 
+
+See the detailed documentation at:https://github.com/justlostintime/GambasShell/wiki/Documentation
