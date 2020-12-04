@@ -1,6 +1,24 @@
 # GambasShell
 Gambas shell gsh for linux required Gambas3 3.14.90 or higher.
-This can be used as a complete bash shell replacement. Very useful for education and general scripting of tasks in your system.
+This can be used as a complete bash shell replacement. Very useful for education and general scripting of tasks in your system. GSH integrates many of the features of posix shells with the more regular language structure provided by 'GAMBAS almost means BASIC.'
+
+```
+As an example:
+    
+   for i as integer 0 to 100
+      echo count {i}  interates $"This{1..100}"
+      next
+or
+
+  for each i as integer in $"0..100"
+     echo {i}
+     next
+or 
+
+  for each s as string in $"*/*.h"
+    print "File name";; s;; "found"
+    next
+```
 
 Only the Ubuntu version/linux mint have been well tested so far.
 So be careful with the other. Please report any issues thanks.
