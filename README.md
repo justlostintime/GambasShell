@@ -1,12 +1,18 @@
 # GambasShell
-Gambas shell gsh for linux required Gambas3 3.14.90 or higher
+Gambas shell gsh for linux required Gambas3 3.14.90 or higher.
+This can be used as a complete bash shell replacement. Very useful for education and general scripting of tasks in your system.
 
 Only the Ubuntu version/linux mint have been well tested so far.
 So be careful with the other. Please report any issues thanks.
 
 With update 1.2.65 the structure of the shell commands has changed.
 So if you are updating from a revision before 1.2.65 then please run clearsubs on the
-first start, exit gsh and restart it. This ensures the use of the new structure.
+first start, exit gsh and restart it.
+Remeber to save all your personal subs/functions/procedures before clearing the in memory subs.
+This ensures the use of the new structure.
+Clearing the subs is a good idea after each release if you can.
+Clear subs using : clearsubs
+Save your personal subs using : savesubs "sub1" "sub2" ....
 
 If you want to use gsh as your login script then you must add an entry to the 
     /etc/shells
