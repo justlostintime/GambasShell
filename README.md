@@ -10,8 +10,11 @@ So if you are updating from a revision before 1.2.65 then please run clearsubs o
 first start, exit gsh and restart it.
 Remeber to save all your personal subs/functions/procedures before clearing the in memory subs.
 This ensures the use of the new structure.
+
 Clearing the subs is a good idea after each release if you can.
-Clear subs using : clearsubs
+
+Clear subs using : clearsubs ' Subroutines are loaded into the gsh.image on first use 
+
 Save your personal subs using : savesubs "sub1" "sub2" ....
 
 If you want to use gsh as your login script then you must add an entry to the 
