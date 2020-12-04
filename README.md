@@ -6,7 +6,7 @@ This can be used as a complete bash shell replacement. Very useful for education
 As an example:
     
    for i as integer 0 to 100
-      echo count {i}  interates $"This{1..100}"
+      echo count {i}  interates $"This{1..10}"
       next
 or
 
