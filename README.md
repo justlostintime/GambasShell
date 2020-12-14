@@ -1,5 +1,5 @@
 # GambasShell
-Gambas shell gsh for linux required Gambas3 3.14.90 or higher.
+Gambas shell gsh for linux required Gambas3 3.14.2 or higher.
 This can be used as a complete bash shell replacement. Very useful for education and general scripting of tasks in your system. GSH integrates many of the features of posix shells with the more regular language structure provided by 'GAMBAS almost means BASIC.'
 
 ```
