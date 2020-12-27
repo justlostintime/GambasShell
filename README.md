@@ -51,3 +51,7 @@ See the Wiki for more details: https://github.com/justlostintime/GambasShell/wik
 Or 
 
 See the detailed documentation at:https://github.com/justlostintime/GambasShell/wiki/Documentation
+
+Source Code can be found here : https://github.com/justlostintime/gsh
+
+And Here : https://github.com/justlostintime/sharedmem
