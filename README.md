@@ -1,13 +1,24 @@
 # GambasShell
-### Note: The Last release 12-27-2020 was a complete mess as far as input output redirection went. Please update to the latest version as soon as possible.
+### Note: The release 12-27-2020 was a complete mess as far as input output redirection went. Please update to the latest version as soon as possible.
 
-Gambas shell gsh for linux required Gambas3 3.14.2 or higher.
+Gambas shell gsh for linux required Gambas3 3.15.3 or higher.
 This can be used as a complete bash shell replacement. Very useful for education and general scripting of tasks in your system. GSH integrates many of the features of posix shells with the more regular language structure provided by 'GAMBAS almost means BASIC.'
+
+Because of some required features it is now required to have latest gambas3. Sorry but it makes things a little easier. the official release of gambas3 15.3 I believe to be April this year(maybe).
+
+Use the ppa 
+  sudo add-apt-repository ppa:gambas-team/gambas-daily
+  sudo apt-get update
+  
+  or clone from 
+  
+  https://gitlab.com/gambas/gambas
+  And follow the detailed description to build for your version of linux
 
 ```
 As an example:
     
-   for i as integer 0 to 100
+   for i as integer = 0 to 100
       echo count {i}  interates $"This{1..10}"
       next
 or
