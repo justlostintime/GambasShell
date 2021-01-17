@@ -18,7 +18,7 @@ Use the ppa
   https://gitlab.com/gambas/gambas
   And follow the detailed description to build for your version of linux
 ```
-### See More NEw Features here: https://github.com/justlostintime/GambasShell/wiki/What's-New
+### See List of New/Updated Features here: https://github.com/justlostintime/GambasShell/wiki/What's-New
 
 Only the Ubuntu and Mint Versions of linux have been well tested so far.
 So be careful with the other. Please report any issues thanks.
