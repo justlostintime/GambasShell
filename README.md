@@ -8,11 +8,20 @@ This can be used as a complete bash shell replacement. Very useful for education
 
 ### Whats New
 Because of some required features it is now required to have latest gambas3. Sorry but it makes things a little easier. the official release of gambas3 15.3 I believe to be April this year(maybe).
+```
+Use the ppa 
+  sudo add-apt-repository ppa:gambas-team/gambas-daily
+  sudo apt-get update
+  
+  or clone from 
+  
+  https://gitlab.com/gambas/gambas
+  And follow the detailed description to build for your version of linux
+```
 
-Help now displays all of available help for gambas, gsh and plugins, first use is slow as it collects info
+## Help now displays all of available help for gambas, gsh and plugins, first use is slow as it collects info
 
 So a 'help str' will return:
-
 ```
 NAME
 Str$
@@ -38,19 +47,32 @@ See also
     * Localization_and_Translation_Functions
     * PRINT
 ```
-
-Use the ppa 
-  sudo add-apt-repository ppa:gambas-team/gambas-daily
-  sudo apt-get update
-  
-  or clone from 
-  
-  https://gitlab.com/gambas/gambas
-  And follow the detailed description to build for your version of linux
-
+## Made cli inteface more regular
+passing gambas variables etc to cli is much more regular
 ```
-Expansion has been added As an example:
-    
+sub clidemo
+dim a as string = "this string"
+echo a
+echo {a}
+echo {(a)}
+echo {10*20}
+echo 10*20
+echo {(10*20)}
+echo $"m{0..5}fil"
+end
+'now run it with:
+clidemo
+Outputs:
+a
+this string
+this string
+10*20
+10*20
+200
+m0fil m1fil m2fil m3fil m4fil m5fil
+```
+## Expansion has been added As an example:
+```
    for i as integer = 0 to 100
       echo count {i}  interates $"This{1..10}"
       next
@@ -61,7 +83,7 @@ or
      next
 or 
 
-  for each s as string in $"*/*.h"
+  for each s as string in $"*/*"
     print "File name";; s;; "found"
     next
 ```
@@ -71,7 +93,7 @@ So be careful with the other. Please report any issues thanks.
 With update 1.2.65 the structure of the shell commands has changed.
 So if you are updating from a revision before 1.2.65 then please run clearsubs on the
 first start, exit gsh and restart it.
-Remeber to save all your personal subs/functions/procedures before clearing the in memory subs.
+Remember to save all your personal subs/functions/procedures before clearing the in memory subs.
 This ensures the use of the new structure.
 
 Clearing the subs is a good idea after each release if you can.
