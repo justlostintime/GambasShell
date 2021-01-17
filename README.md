@@ -18,7 +18,29 @@ Use the ppa
   https://gitlab.com/gambas/gambas
   And follow the detailed description to build for your version of linux
 ```
-
+## Parameterized Alias format changed
+```
+defined as :
+alias = ifor()='for i as integer = 0 to &1:&2:next'
+Used as:
+ifor(20,'print "this is an alias use";;i)
+Max of 20 parameters are allowed
+```
+## lambda and parameterized lambda format update
+```
+Lanbda functions are defined starting with begin..end, lambda..end, {...}
+Are used in scripts to create an executable code block.. see documentation
+define as:
+begin
+  dim a as string = "Test String"
+  print a
+  end
+or with parameters:
+begin(parm1)
+  dim a as string = "This Parm"&param[0]
+  print a
+  end
+```
 ## Help now displays all of available help for gambas, gsh and plugins, first use is slow as it collects info
 
 So a 'help str' will return:
