@@ -1,10 +1,43 @@
 # GambasShell
 ### Note: The release 12-27-2020 was a complete mess as far as input output redirection went. Please update to the latest version as soon as possible.
+
 Documentation  for gsh at https://github.com/justlostintime/GambasShell/wiki
+
 Gambas shell gsh for linux required Gambas3 3.15.3 or higher.
 This can be used as a complete bash shell replacement. Very useful for education and general scripting of tasks in your system. GSH integrates many of the features of posix shells with the more regular language structure provided by 'GAMBAS almost means BASIC.'
 
+### Whats New
 Because of some required features it is now required to have latest gambas3. Sorry but it makes things a little easier. the official release of gambas3 15.3 I believe to be April this year(maybe).
+
+Help now displays all of available help for gambas, gsh and plugins, first use is slow as it collects info
+
+So a 'help str' will return:
+
+```
+NAME
+Str$
+String = Str$ ( Expression ) String = Str ( Expression )
+Convert an expression into its printable string representation. It is the exact contrary of Val.
+The current localization is used for converting numbers and dates.
+
+
+Example
+' Print on standard output or in a message
+Public Const ON_STDOUT As Integer = 1
+Public Const ON_MESSAGE As Integer = 2
+Sub PrintOn(Where As Integer, What As Variant)
+  If Where = ON_STDOUT Then
+    Print What
+  Else If Where = ON_MESSAGE Then
+    Message(Str$(What))
+  Endif
+End
+
+See also
+    * Conversion_Functions
+    * Localization_and_Translation_Functions
+    * PRINT
+```
 
 Use the ppa 
   sudo add-apt-repository ppa:gambas-team/gambas-daily
@@ -16,7 +49,7 @@ Use the ppa
   And follow the detailed description to build for your version of linux
 
 ```
-As an example:
+Expansion has been added As an example:
     
    for i as integer = 0 to 100
       echo count {i}  interates $"This{1..10}"
