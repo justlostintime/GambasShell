@@ -1,6 +1,6 @@
 # GambasShell
 ### Note: The release 12-27-2020 was a complete mess as far as input output redirection went. Please update to the latest version as soon as possible.
-
+Documentation  for gsh at https://github.com/justlostintime/GambasShell/wiki
 Gambas shell gsh for linux required Gambas3 3.15.3 or higher.
 This can be used as a complete bash shell replacement. Very useful for education and general scripting of tasks in your system. GSH integrates many of the features of posix shells with the more regular language structure provided by 'GAMBAS almost means BASIC.'
 
