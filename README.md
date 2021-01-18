@@ -6,6 +6,11 @@ Documentation  for gsh at https://github.com/justlostintime/GambasShell/wiki
 Gambas shell gsh for linux required Gambas3 3.15.3 or higher.
 This can be used as a complete bash shell replacement. Very useful for education and general scripting of tasks in your system. GSH integrates many of the features of posix shells with the more regular language structure provided by 'GAMBAS almost means BASIC.'
 
+### Tip
+If the shell acts strange, delete the ~/var/gsh.image and any /dev/shm/<username>gsh and /dev/shm/<username>col you find there then restart gsh, 
+for a clean restart. Use savesubs and saveclass commands ofter to save your work.
+
+  
 ### Whats New
 Because of some required features it is now required to have latest gambas3. Sorry but it makes things a little easier. the official release of gambas3 15.3 I believe to be April this year(maybe).
 ```
