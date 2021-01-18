@@ -8,7 +8,7 @@ This can be used as a complete bash shell replacement. Very useful for education
 
 ### Tip
 If the shell acts strange, delete the ~/var/gsh.image and any /dev/shm/<username>gsh and /dev/shm/<username>col you find there then restart gsh, 
-for a clean restart. Use savesubs and saveclass commands ofter to save your work.
+for a clean restart. Use savesubs and saveclass commands often to save your work.
   
 #### See more tips here:https://github.com/justlostintime/GambasShell/wiki/Tips-and-Tricks
   
