@@ -9,7 +9,8 @@ This can be used as a complete bash shell replacement. Very useful for education
 ### Tip
 If the shell acts strange, delete the ~/var/gsh.image and any /dev/shm/<username>gsh and /dev/shm/<username>col you find there then restart gsh, 
 for a clean restart. Use savesubs and saveclass commands ofter to save your work.
-
+  
+#### See more tips here:https://github.com/justlostintime/GambasShell/wiki/Tips-and-Tricks
   
 ### Whats New
 Because of some required features it is now required to have latest gambas3. Sorry but it makes things a little easier. the official release of gambas3 15.3 I believe to be April this year(maybe).
@@ -23,7 +24,7 @@ Use the ppa
   https://gitlab.com/gambas/gambas
   And follow the detailed description to build for your version of linux
 ```
-### See List of New/Updated Features here: https://github.com/justlostintime/GambasShell/wiki/What's-New
+#### See List of New/Updated Features here: https://github.com/justlostintime/GambasShell/wiki/What's-New
 
 Only the Ubuntu and Mint Versions of linux have been well tested so far.
 So be careful with the other. Please report any issues thanks.
