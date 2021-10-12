@@ -1,4 +1,7 @@
 # GambasShell
+
+### The latest release 1.3 has a large number of fixes and enhancement, with simplifications of much of the shell
+
 ### Note: The release 12-27-2020 was a complete mess as far as input output redirection went. Please update to the latest version as soon as possible.
 
 Documentation  for gsh at https://github.com/justlostintime/GambasShell/wiki
