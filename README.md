@@ -1,6 +1,11 @@
 # GambasShell
 
 ### The latest release 1.3 has a large number of fixes and enhancement, with simplifications of much of the shell
+the install packages may be downloaded using the following command examples, substitute your package version as needed.
+
+wget https://raw.githubusercontent.com/justlostintime/GambasShell/master/gambas3-westwood-sharedmem_3.15.3-38_all.deb
+wget https://raw.githubusercontent.com/justlostintime/GambasShell/master/gsh_1.3.3-0ubuntu18_all.deb
+
 
 ### Note: The release 12-27-2020 was a complete mess as far as input output redirection went. Please update to the latest version as soon as possible.
 
