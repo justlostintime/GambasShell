@@ -2,6 +2,11 @@
 
 ### The latest release 1.3 has a large number of fixes and enhancement, with simplifications of much of the shell
 the install packages may be downloaded using the following command examples, substitute your package version as needed.
+Adding the plugin commands : 
+browse - open the current directory in the default filebrowser
+google - open the fierfox browser with the provided search results
+toclipboard - copy the content of a file to the clipboard.  alias tcb , requires xclip to be installed
+fromclipboard - print the content of the clipboard. alias fcb, example !fcb | less , or !fcb > "myfile"...
 ```
 wget https://raw.githubusercontent.com/justlostintime/GambasShell/master/gambas3-westwood-sharedmem_3.15.3-38_all.deb
 wget https://raw.githubusercontent.com/justlostintime/GambasShell/master/gsh_1.3.3-0ubuntu18_all.deb
