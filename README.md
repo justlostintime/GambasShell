@@ -1,4 +1,4 @@
-# GambasShell
+# Gambas Shell
 ### I would really appreciate some feedback!
 If you are cloning or forking this project, I would really appreciate some feedback and suggestions
 from everyone who is using or trying to use this shell.
