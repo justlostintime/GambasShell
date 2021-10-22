@@ -3,6 +3,9 @@
 If you are cloning or forking this project, I would really appreciate some feedback and suggestions
 from everyone who is using or trying to use this shell.
 
+### Updated Wiki with getting started - intro to gsh
+First pass at an into guide.. Will be adding more in the future.
+
 ### The latest release 1.3 has a large number of fixes and enhancement, with simplifications of much of the shell
 the install packages may be downloaded using the following command examples, substitute your package version as needed.
 Adding the plugin commands : 
