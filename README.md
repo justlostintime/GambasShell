@@ -4,7 +4,7 @@ If you are cloning or forking this project, I would really appreciate some feedb
 from everyone who is using or trying to use this shell.
 
 ## Requires gambas
-Requires the latest version of gambas. See the documentation on the wiki
+Requires the latest version of gambas. [See the documentation on the wiki](https://github.com/justlostintime/GambasShell/wiki)
 
 ### Something to note when using gsh
 In gsh subroutines/Functions/Procedures are not gsh script they are gambas plugins to the gsh shell
