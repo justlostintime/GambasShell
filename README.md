@@ -3,6 +3,27 @@
 If you are cloning or forking this project, I would really appreciate some feedback and suggestions
 from everyone who is using or trying to use this shell.
 
+### Something to note when using gsh
+In gsh subroutines/Functions/Procedures are notgsh script they are gambas plugins to the gsh shell
+they support the Alias process and cli interface but you can not use the Edit/listing etc internal commands.
+To do that you need to author a gsh script file.
+Example:
+```
+vim MyScript
+   add Content Like:
+#!/usr/bin/gsh
+ls /
+{
+ dim a as integer = 1
+ print a
+ }
+ $b = [1,2,3,4,5]
+ ?? $b
+ 
+   Then save the file and do: 
+ chmod 766 MyScript
+ ./MyScript
+```
 ### Updated Wiki with getting started - intro to gsh
 First pass at an into guide.. Will be adding more in the future.
 
