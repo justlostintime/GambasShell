@@ -3,6 +3,9 @@
 If you are cloning or forking this project, I would really appreciate some feedback and suggestions
 from everyone who is using or trying to use this shell.
 
+## Requires gambas
+Requires the latest version of gambas. See the documentation on the wiki
+
 ### Something to note when using gsh
 In gsh subroutines/Functions/Procedures are not gsh script they are gambas plugins to the gsh shell
 they support the Alias process and cli interface but you can not use the Edit/listing etc internal commands.
