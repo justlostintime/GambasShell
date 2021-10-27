@@ -6,6 +6,19 @@ from everyone who is using or trying to use this shell.
 ## Requires gambas
 Requires the latest version of gambas. [See the documentation on the wiki](https://github.com/justlostintime/GambasShell/wiki)
 
+### Update asap to the latest version
+The commit 1.3.34-36  had an error I induced that cause redirection to fail and exported environment variables to fail on the cli. 
+The latest Version now supports embedded cli into a gambase statement. For example:
+```
+if `ls | tr [a-z] [A-Z] > $a` = 0 then 
+  print $a
+else
+  echo the cli failed
+endif
+```
+Any cli command line may be enclosed in back ticks \` and may be used anywhere in a gsh script that 
+a gambas function can be used. Note that this differs from thier use in BASH/CSH.
+
 ### Something to note when using gsh
 In gsh subroutines/Functions/Procedures are not gsh script they are gambas plugins to the gsh shell
 they support the Alias process and cli interface but you can not use the Edit/listing etc internal commands.
