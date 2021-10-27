@@ -3,12 +3,18 @@
 If you are cloning or forking this project, I would really appreciate some feedback and suggestions
 from everyone who is using or trying to use this shell.
 
+See the detailed documentation at: https://github.com/justlostintime/GambasShell/wiki/Documentation
+
+Source Code can be found here : https://github.com/justlostintime/gsh
+
+And Here : https://github.com/justlostintime/sharedmem
+
 ## Requires gambas
 Requires the latest version of gambas. [See the documentation on the wiki](https://github.com/justlostintime/GambasShell/wiki)
 
 ### Update asap to the latest version
-The commit 1.3.34-36  had an error I induced that cause redirection to fail and exported environment variables to fail on the cli. 
-The latest Version now supports embedded cli into a gambase statement. For example:
+The commit 1.3.34-36  had an error I induced that causes redirection to fail and exported environment variables to fail on the cli. 
+New: The latest Version now supports embedded cli into a gambase statement. For example:
 ```
 if `ls | tr [a-z] [A-Z] > $a` = 0 then 
   print $a
