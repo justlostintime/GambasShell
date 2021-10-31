@@ -12,6 +12,9 @@ And Here : https://github.com/justlostintime/sharedmem
 ## Requires gambas
 Requires the latest version of gambas. [See the documentation on the wiki](https://github.com/justlostintime/GambasShell/wiki)
 
+### Last update error cd and other builtin subroutines required quote around path names
+This has been resolved with this fix
+
 ### Update asap to the latest version
 The commit 1.3.34-36  had an error I induced that causes redirection to fail and exported environment variables to fail on the cli. 
 New: The latest Version now supports embedded cli into a gambase statement. For example:
