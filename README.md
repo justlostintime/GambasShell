@@ -3,6 +3,8 @@
 If you are cloning or forking this project, I would really appreciate some feedback and suggestions
 from everyone who is using or trying to use this shell.
 
+[What's new](https://github.com/justlostintime/GambasShell/wiki/What's-New)
+
 See the detailed documentation at: https://github.com/justlostintime/GambasShell/wiki
 
 Source Code can be found here : https://github.com/justlostintime/gsh
