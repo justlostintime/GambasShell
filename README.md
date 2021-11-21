@@ -4,8 +4,20 @@ If you are cloning or forking this project, I would really appreciate some feedb
 from everyone who is using or trying to use this shell.
 
 ## New Install process
-To install the latest version of gsh and its dependencies, download and install the gshinstall
-then run the command **gshinstall** from the command line after the installation completes.
+To install the latest version of gsh and its dependencies, download and install the gshinstall for your distribution\
+Listed are the keys to each distribution version:\
+```
+fedora/red hat/centos   - gshinstall-......fdr.noarch.rpm
+opensuse/suse           - gshinstall-.....suse.noarch.rpm
+Ubuntu/kbuntu/mint...   - gshinstall_....._0ubuntu._all.deb
+debian and derivitives  - gshinstall_...._all.deb
+```
+Then run the command:\
+```
+   sudo gshinstall
+```   
+from the command line after the installation completes.
+
 This supports ubuntu/kubuntu/mint.., fedora/redhat/centos, debian
 or derivatives of these root distros.
 
