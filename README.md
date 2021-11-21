@@ -36,7 +36,7 @@ Requires the latest version of gambas. [See the documentation on the wiki](https
 This has been resolved with this fix
 
 ### Update asap to the latest version
-The commit 1.3.34-36  had an error I induced that causes redirection to fail and exported environment variables to fail on the cli. 
+The commit 1.3.34-36  had an error I induced that causes redirection to fail and exported environment variables to fail on the cli.\ 
 New: The latest Version now supports embedded cli into a gambase statement. For example:
 ```
 if `ls | tr [a-z] [A-Z] > $a` = 0 then 
@@ -61,9 +61,11 @@ ls /
 {
  dim a as integer = 1
  print a
- }
- $b = [1,2,3,4,5]
- ?? $b
+ list
+}
+$b = [1,2,3,4,5]
+edit $b
+?? $b
  
    Then save the file and do: 
  chmod 766 MyScript
@@ -75,11 +77,23 @@ First pass at an into guide.. Will be adding more in the future.
 ### The latest release 1.3 has a large number of fixes and enhancement, with simplifications of much of the shell
 the install packages may be downloaded using the following command examples, substitute your package version as needed.
 Adding the plugin commands : 
+```
+    browse       - open the current directory in the default filebrowser
+    google       - open the fierfox or chrome browser with the provided search results
+    
+Two new clipboard functions have been added, they both require that xclip be installed
 
-    browse - open the current directory in the default filebrowser
-    google - open the fierfox browser with the provided search results
-    toclipboard - copy the content of a file to the clipboard.  alias tcb , requires xclip to be installed
-    fromclipboard - print the content of the clipboard. alias fcb, example !fcb | less , or !fcb > "myfile"...
+    toclipboard   - copy the content of a file to the clipboard. With an alias of tcb
+    fromclipboard - print the content of the clipboard to std out.with an alias of fcb
+    
+    Examples:
+       open the default file browser   - browse "/"
+       do a internet lookup            - google "fast cars"
+       Write to clipboard              - tcb "myfile.txt"
+       view content of clipboard       - !fcb | less 
+       Capture clipboard to a file     - !fcb > "myfile"...
+       Capture clipboard to a variable - !fcb > $a
+```
 ```
 wget https://raw.githubusercontent.com/justlostintime/GambasShell/master/gambas3-westwood-sharedmem_3.15.3-38_all.deb
 wget https://raw.githubusercontent.com/justlostintime/GambasShell/master/gsh_1.3.3-0ubuntu18_all.deb
