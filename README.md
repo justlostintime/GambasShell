@@ -4,8 +4,8 @@ If you are cloning or forking this project, I would really appreciate some feedb
 from everyone who is using or trying to use this shell.
 
 ## New Install process
-To install the latest version of gsh and all its dependencies download and install the gshinstall
-then run the gshinstall.gambas application it installs.
+To install the latest version of gsh and its dependencies, download and install the gshinstall
+then run the command **gshinstall** from the command line after the installation completes.
 This supports ubuntu/kubuntu/mint.., fedora/redhat/centos, debian
 or derivatives of these root distros.
 
