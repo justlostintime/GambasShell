@@ -3,6 +3,8 @@
 If you are cloning or forking this project, I would really appreciate some feedback and suggestions
 from everyone who is using or trying to use this shell.
 
+If you would like to contribute to this project, Please drop me an email.
+
 ## New Install process
 To install the latest version of gsh and its dependencies, download and install the gshinstall for your distribution\
 Listed are the keys to each distribution version:\
