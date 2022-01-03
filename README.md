@@ -33,6 +33,7 @@ And Here : https://github.com/justlostintime/sharedmem
 
 ## Requires gambas
 Requires the latest version of gambas. [See the documentation on the wiki](https://github.com/justlostintime/GambasShell/wiki)
+The latest stable release for openSUSE can be installed with one click [here](https://software.opensuse.org/package/gambas3)
 
 ### Last update error cd and other builtin subroutines required quote around path names
 This has been resolved with this fix
