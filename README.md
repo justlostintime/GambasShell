@@ -33,7 +33,14 @@ And Here : https://github.com/justlostintime/sharedmem
 
 ## Requires gambas
 Requires the latest version of gambas. [See the documentation on the wiki](https://github.com/justlostintime/GambasShell/wiki)\
+
 The latest stable release for openSUSE can be installed with one click [Here](https://software.opensuse.org/package/gambas3)\
+    OpenSUSE also requires libnotify-tools for some functions : 
+```
+             zypper install libnotify-tools
+             zypper install html2text
+```
+    
 The latest ubuntu/mint version can be found [Here](https://launchpad.net/~gambas-team/+archive/ubuntu/gambas-daily)
 
 ### Last update error cd and other builtin subroutines required quote around path names
