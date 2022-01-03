@@ -32,8 +32,9 @@ Source Code can be found here : https://github.com/justlostintime/gsh
 And Here : https://github.com/justlostintime/sharedmem
 
 ## Requires gambas
-Requires the latest version of gambas. [See the documentation on the wiki](https://github.com/justlostintime/GambasShell/wiki)
-The latest stable release for openSUSE can be installed with one click [here](https://software.opensuse.org/package/gambas3)
+Requires the latest version of gambas. [See the documentation on the wiki](https://github.com/justlostintime/GambasShell/wiki)\
+The latest stable release for openSUSE can be installed with one click [Here](https://software.opensuse.org/package/gambas3)\
+The latest ubuntu/mint version can be found [Here](https://launchpad.net/~gambas-team/+archive/ubuntu/gambas-daily)
 
 ### Last update error cd and other builtin subroutines required quote around path names
 This has been resolved with this fix
