@@ -32,7 +32,25 @@ Source Code can be found here : https://github.com/justlostintime/gsh
 And Here : https://github.com/justlostintime/sharedmem
 
 ## Requires gambas
-Requires the latest version of gambas. [See the documentation on the wiki](https://github.com/justlostintime/GambasShell/wiki)
+Requires the latest version of gambas. [See the documentation on the wiki](https://github.com/justlostintime/GambasShell/wiki)\
+
+The latest stable release for openSUSE can be installed with one click [Here](https://software.opensuse.org/package/gambas3)\
+    OpenSUSE also requires libnotify-tools for some functions : These should be installed by gshinstaller
+```
+             zypper install libnotify-tools
+             zypper install html2text
+```
+The latest gambas3 for debian is available by adding the boolworm repository to bullseye, after installing gambas3 then updating
+gambas3 
+    in synaptic package magater add:
+```
+   http.us.debian.org/debian bookworm main
+   in symaptic, select search for gambas3, then mark all for update
+   when completed
+   some functions require inotify-tools and  html2text be installed - these should be installes by gshinstaller
+   
+    
+The latest ubuntu/mint version can be found [Here](https://launchpad.net/~gambas-team/+archive/ubuntu/gambas-daily)
 
 ### Last update error cd and other builtin subroutines required quote around path names
 This has been resolved with this fix
