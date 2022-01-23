@@ -48,16 +48,50 @@ gambas3
    in symaptic, select search for gambas3, then mark all for update
    when completed
    some functions require inotify-tools and  html2text be installed - these should be installes by gshinstaller
-   
+```   
     
 The latest ubuntu/mint version can be found [Here](https://launchpad.net/~gambas-team/+archive/ubuntu/gambas-daily)
 
-### Last update error cd and other builtin subroutines required quote around path names
+### 1.3.104 Many Bug fixes, Expansion has been improved
+New: Better brace expansion using notation $"expansion" may be used anywhere in the code.\
+Examples:\
+```
+   for each i as integer in $"01..10"
+      print i;;
+   next
+   >1 2 3 4 5 6 7 8 9 10
+   
+   for each i as string in $"01..10"
+      print i;;
+   next
+   >01 02 03 04 05 06 07 08 09 10
+   
+   print $"a{01..10}".join(" ")
+   >a01 a02 a03 a04 a05 a06 a07 a08 a09 a10
+   
+   touch $"a{01..10}"
+   ls a*
+   >a01 a02 a03 a04 a05 a06 a07 a08 a09 a10
+   
+   touch $"a{01..10}.py"
+   touch $"a{01..10}.bat"
+   touch $"a{01..10}.bin"
+   ls
+   > a01      a01.bin  a02      a02.bin  a03      a03.bin  a04      a04.bin  a05      a05.bin  a06      a06.bin  a07      a07.bin  a08      a08.bin  a09  
+   a09.bin  a10      a10.bin a01.bat  a01.py   a02.bat  a02.py   a03.bat  a03.py   a04.bat  a04.py   a05.bat  a05.py   a06.bat  a06.py   a07.bat  a07.py 
+   a08.bat  a08.py   a09.bat  a09.py   a10.bat  a10.py   
+   
+   echo $"*.{bat,py}"
+   >a01.bat a02.bat a03.bat a04.bat a05.bat a06.bat a07.bat a08.bat a09.bat a10.bat a01.py a02.py a03.py a04.py a05.py a06.py a07.py a08.py a09.py a10.py
+```
+
+### 1.3.34 The Last update error cd and other builtin subroutines required quote around path names
 This has been resolved with this fix
 
 ### Update asap to the latest version
-The commit 1.3.34-36  had an error I induced that causes redirection to fail and exported environment variables to fail on the cli.\ 
-New: The latest Version now supports embedded cli into a gambase statement. For example:
+The commit 1.3.34-36  had an error I induced that causes redirection to fail and exported environment variables to fail on the cli.
+
+**New: The latest Version now supports embedded cli into a gambase statement. For example:**
 ```
 if `ls | tr [a-z] [A-Z] > $a` = 0 then 
   print $a
@@ -92,7 +126,7 @@ edit $b
  ./MyScript
 ```
 ### Updated Wiki with getting started - intro to gsh
-First pass at an into guide.. Will be adding more in the future.
+First pass at an introduction guide.. Will be adding more in the future.
 
 ### The latest release 1.3 has a large number of fixes and enhancement, with simplifications of much of the shell
 the install packages may be downloaded using the following command examples, substitute your package version as needed.
