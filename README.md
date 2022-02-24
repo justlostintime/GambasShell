@@ -1,4 +1,10 @@
 # Gambas Shell
+
+## Note on latest gambas daily 02/20/2022
+If youare using the latest gambas daily, there was a change in how objects are written to memory, which seems to making the alias
+process fail So to fix this you need to make sure that /dev/shm/ is empty and then ~/vars/gsh.image is deleted.
+The image contains environment and the old object format.
+
 ### I would really appreciate some feedback!
 If you are cloning or forking this project, I would really appreciate some feedback and suggestions
 from everyone who is using or trying to use this shell.
