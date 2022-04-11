@@ -1,4 +1,7 @@
 # Gambas Shell
+
+## Note on latest gambas daily 02/20/2022
+If you find that your alias substitution has stopped working and if you are using the latest PPA: gambas daily, there was a change in gambas3 as to how objects are written to memory, which seems to making the alias process fail. So to fix this you need to make sure that /dev/shm/ is empty and then ~/vars/gsh.image is deleted. The image contains the environment and used the old object format.
 ### I would really appreciate some feedback!
 If you are cloning or forking this project, I would really appreciate some feedback and suggestions
 from everyone who is using or trying to use this shell.
