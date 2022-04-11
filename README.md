@@ -1,5 +1,9 @@
 # Gambas Shell
 
+## Note Bug Fix for Gambas 3.17 and above
+You need to update the version of gsh to 1.3.106 or greater before updating to Gambas to 3.17 or above.
+A bug fix in gambas which changed how WAIT instruction works caused GSH to fail!
+
 ## Note on latest gambas daily 02/20/2022
 If you find that your alias substitution has stopped working and if you are using the latest PPA: gambas daily, there was a change in gambas3 as to how objects are written to memory, which seems to making the alias process fail. So to fix this you need to make sure that /dev/shm/ is empty and then ~/vars/gsh.image is deleted. The image contains the environment and used the old object format.
 ### I would really appreciate some feedback!
