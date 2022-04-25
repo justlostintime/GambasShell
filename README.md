@@ -1,6 +1,12 @@
 # Gambas Shell
 
-## Note alversions of the libraries and components used by gsh must be 3.17
+## Update - ubuntu installation packages available to add to apt source list
+
+curl -s --compressed "https://raw.githubusercontent.com/justlostintime/ppa/main/ubuntu/KEY.gpg | sudo apt-key add -
+sudo curl -s --compressed -o /etc/apt/sources.list.d/ppa.list "https://raw.githubusercontent.com/justlostintime/ppa/main/ubuntu/ppa.list"
+sudo apt update
+
+## Note all versions of the libraries and components used by gsh must be 3.17
 
 ## Note Bug Fix for Gambas 3.17 and above
 You need to update the version of gsh to 1.3.106 or greater before updating to Gambas to 3.17 or above.
