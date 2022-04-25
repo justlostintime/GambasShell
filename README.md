@@ -1,5 +1,7 @@
 # Gambas Shell
 
+## Note alversions of the libraries and components used by gsh must be 3.17
+
 ## Note Bug Fix for Gambas 3.17 and above
 You need to update the version of gsh to 1.3.106 or greater before updating to Gambas to 3.17 or above.
 A bug fix in gambas which changed how WAIT instruction works caused GSH to fail!
