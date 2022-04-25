@@ -3,7 +3,7 @@
 ## Update - ubuntu installation packages available to add to apt source list
 
 ```
-curl -s --compressed "https://raw.githubusercontent.com/justlostintime/ppa/main/ubuntu/KEY.gpg | sudo apt-key add -
+curl -s --compressed "https://raw.githubusercontent.com/justlostintime/ppa/main/ubuntu/KEY.gpg" | sudo apt-key add -
 sudo curl -s --compressed -o /etc/apt/sources.list.d/ppa.list "https://raw.githubusercontent.com/justlostintime/ppa/main/ubuntu/ppa.list"
 sudo apt update
 ```
