@@ -1,6 +1,6 @@
 # Gambas Shell
 
-## Update - ubuntu installation packages available to add to apt source list
+## Update - Ubuntu/Debian installation packages available to add to apt source list
 
 ```
 curl -s --compressed "https://raw.githubusercontent.com/justlostintime/ppa/main/ubuntu/KEY.gpg" | sudo apt-key add -
