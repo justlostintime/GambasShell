@@ -1,6 +1,7 @@
 # Gambas Shell
 
 ## Update - Ubuntu/Debian installation packages available to add to apt source list
+Gambas 3.17 is now available as a backport for debian and ubuntu, even available for Raspberry OS!
 
 ```
 curl -s --compressed "https://raw.githubusercontent.com/justlostintime/ppa/main/ubuntu/KEY.gpg" | sudo apt-key add -
