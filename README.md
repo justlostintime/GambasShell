@@ -1,6 +1,16 @@
 # Gambas Shell
 
-## Note alversions of the libraries and components used by gsh must be 3.17
+Gambas 3.17 is now available as a backport for debian and ubuntu, even available for Raspberry OS 64 bit!
+
+## Update - Ubuntu/Debian installation packages available to add to apt source list
+
+```
+curl -s --compressed "https://raw.githubusercontent.com/justlostintime/ppa/main/ubuntu/KEY.gpg" | sudo apt-key add -
+sudo curl -s --compressed -o /etc/apt/sources.list.d/gsh.list "https://raw.githubusercontent.com/justlostintime/ppa/main/ubuntu/gsh.list"
+sudo apt update
+```
+
+## Note all versions of the libraries and components used by gsh must be 3.17
 
 ## Note Bug Fix for Gambas 3.17 and above
 You need to update the version of gsh to 1.3.106 or greater before updating to Gambas to 3.17 or above.
