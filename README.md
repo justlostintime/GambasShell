@@ -1,5 +1,13 @@
 # Gambas Shell
 
+## Update All Realeased installation packages are move to justlostintime/PPA repository
+Distributions specific packages have now all been moved to
+
+https://github.com/justlostintime/ppa/main/
+
+All installation packages have been removed from this repository and moved to the PPA repository, this is strictly the project documentation
+and wiki.
+
 Gambas 3.17 is now available as a backport for debian and ubuntu, even available for Raspberry OS 64 bit!
 
 ## Update for new Releases of DEBian/mint/ubuntu, This is the prefered method of installing executables
